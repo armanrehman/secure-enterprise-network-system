@@ -2,6 +2,19 @@
 
 Design and implementation of a redundant, segmented enterprise network with a firewalled dual-ISP edge, centralized wireless, and VoIP. Built and verified in Cisco Packet Tracer.
 
+## Repository Contents:
+
+Project Documentation (Secure-Enterprise-Network-System-README.pdf) : 
+Full write-up of the network: requirements, architecture and the reasoning behind each design decision, VLAN and IP addressing plan, the complete list of technologies implemented in build order, and the testing performed to verify the design.
+
+Troubleshooting Log (Secure-Enterprise-Network-System-Troubleshooting.pdf) : 
+Every issue hit during the build, documented as symptom, root cause, fix, and takeaway. Covers voice VLAN misconfiguration, a dead ISP link, DHCP relay and missing scopes, OSPF adjacency failures, and lightweight AP registration over CAPWAP, along with the layer-by-layer isolation method used to find each fault.
+
+Topology (topology.png) : 
+Image of the complete network as implemented in Packet Tracer.
+
+Packet Tracer File (netproj.pkt)
+
 ---
 
 ## 1. Overview
