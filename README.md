@@ -19,7 +19,7 @@ Packet Tracer File (netproj.pkt)
 
 ## 1. Overview
 
-This project is a complete network design and implementation for a 600-user organization occupying a new three-floor headquarters. The building houses six departments (Sales and Marketing, HR and Logistics, Finance and Accounts, Administration and Public Relations, ICT, and a Server Room), and every department receives wired LAN access, WiFi, and IP telephony. Core services (DHCP, DNS, RADIUS) run in a protected internal server zone, public-facing servers (Web, FTP, Mail, App, NAS storage) run in a DMZ, and the network reaches the internet through two ISPs behind a pair of Cisco ASA firewalls.
+This project is a complete network design and implementation for a multi-floor headquarters. The building houses six departments (Sales and Marketing, HR and Logistics, Finance and Accounts, Administration and Public Relations, ICT, and a Server Room), and every department receives wired LAN access, WiFi, and IP telephony. Core services (DHCP, DNS, RADIUS) run in a protected internal server zone, public-facing servers (Web, FTP, Mail, App, NAS storage) run in a DMZ, and the network reaches the internet through two ISPs behind a pair of Cisco ASA firewalls.
 
 The design goal: no single point of failure between an end user and the internet, with security enforced at every layer, and room to grow without redesign.
 
